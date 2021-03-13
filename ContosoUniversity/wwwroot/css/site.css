@@ -7,9 +7,13 @@ a.navbar-brand {
   word-break: break-all;
 }
 
+.bg-color{
+    background-color: royalblue !important;
+}
 /* Provide sufficient contrast against white background */
 a {
-  color: #0366d6;
+    color: blanchedalmond !important;
+    text-decoration: underline !important;
 }
 
 .btn-primary {
@@ -60,12 +64,17 @@ html {
 
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 60px;
+  margin-bottom: 60px !important;
+  background-color: slategray !important;
 }
+
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px; /* Vertically center the text there */
+    color: #fff !important;
+    background-color: royalblue !important;
+    margin-top: 60px !important;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px; /* Vertically center the text there */
 }
